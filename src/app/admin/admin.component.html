@@ -1,0 +1,45 @@
+<div class="container">
+  <!-- <form>
+    <div class="form-group">
+      <label for="FirstName">firstName</label>
+      <input
+        required
+        minlength="3"
+        maxlength="8"
+        ngModel
+        name="firstName"
+        #firstName="ngModel"
+        type="text" 
+        id="firstName"
+        class="form-control" 
+        (change)="log(firstName)"
+        >
+      <div *ngIf="firstName.touched && !firstName.valid" class="alert alert-danger">
+
+        <div *ngIf="firstName.errors.required">Это поле обязательное</div>
+        <div *ngIf="firstName.errors.minlength">Минимум {{firstName.errors.minlength.requiredLength}} значения</div>
+        <div *ngIf="firstName.errors.maxlength">Превышен интервал значений в {{firstName.errors.maxlength.requiredLength}}</div>
+      </div>
+    </div>
+  </form> -->
+<!-- 
+  <form class="example-form">
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Email" [formControl]="emailFormControl"
+      [errorStateMatcher]="matcher">
+      <mat-hint>Errors appear instantly!</mat-hint>
+      <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+        Please enter a valid email address
+      </mat-error>
+      <mat-error *ngIf="emailFormControl.hasError('required')">
+        Email is <strong>required</strong>
+      </mat-error>
+      <mat-error *ngIf="emailFormControl.hasError('minlength')">
+          Email is too short!
+        </mat-error>
+    </mat-form-field>
+  </form> -->
+
+
+  
+</div>
